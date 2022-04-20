@@ -1,4 +1,6 @@
 src/
 
 .gitignore
+.mocharc.json
+
 tsconfig.json

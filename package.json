@@ -1,7 +1,7 @@
 {
   "name": "remark-md2html-starter",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Combine several commonly used plugins for compile markdown to html.",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
