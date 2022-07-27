@@ -1,6 +1,6 @@
 {
   "name": "remark-md2html-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Combine several commonly used plugins for compile markdown to html.",
   "main": "dist/index.js",
   "type": "module",
@@ -27,11 +27,15 @@
   },
   "homepage": "https://github.com/xiaoliu-heng/remark-md2html-starter#readme",
   "dependencies": {
+    "rehype-document": "^6.0.1",
     "rehype-highlight": "^5.0.2",
+    "rehype-katex": "^6.0.2",
+    "rehype-raw": "^6.1.1",
     "rehype-stringify": "^9.0.3",
     "remark-extract-frontmatter": "^3.2.0",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
+    "remark-math": "^5.1.1",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
     "unified": "^10.1.2",
