@@ -39,7 +39,6 @@ const applyPlugins = (plugins: PluginList, chain: Processor) => {
 
     if (Array.isArray(plugin)) {
       const [pluginName, pluginSettings] = plugin;
-      console.log(pluginName, pluginSettings);
       chain.use(pluginName, pluginSettings);
     } else {
       chain.use(plugin);
