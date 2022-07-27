@@ -42,7 +42,6 @@ describe("processor", () => {
     const file = "# Hello, world!\n$$\n1+1\n$$";
     const result = await processor.process(file);
 
-    console.log(result.value);
     expect(result).to.be.instanceOf(Object);
     expect(result.value).to.be.includes(
       '<span class="katex"><span class="katex-mathml"><math'
